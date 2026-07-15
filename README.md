@@ -1,5 +1,7 @@
 # @minittupoyo/satteri-breaks
 
+[日本語](./README.ja.md) | English
+
 A Sätteri-compatible copy of `remark-breaks`.
 
 Converts soft line endings inside mdast text nodes to hard break nodes, matching `remark-breaks` without requiring the unified/remark pipeline.
