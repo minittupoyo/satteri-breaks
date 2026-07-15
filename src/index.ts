@@ -8,8 +8,8 @@ const lineEndingPattern = /\r\n?|\n/;
  * Converts soft line endings inside mdast text nodes to hard break nodes,
  * matching remark-breaks without requiring the unified/remark pipeline.
  */
-export const satteriRemarkBreaks = defineMdastPlugin({
-  name: 'satteri-remark-breaks',
+export const satteriBreaks = defineMdastPlugin({
+  name: 'satteri-breaks',
   text(node, ctx) {
     if (!lineEndingPattern.test(node.value)) return;
 
@@ -41,4 +41,4 @@ export const satteriRemarkBreaks = defineMdastPlugin({
   },
 });
 
-export default satteriRemarkBreaks;
+export default satteriBreaks;

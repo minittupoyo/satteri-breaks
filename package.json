@@ -1,5 +1,5 @@
 {
-  "name": "satteri-remark-breaks",
+  "name": "satteri-breaks",
   "version": "1.0.0",
   "description": "Satteri-compatible copy of remark-breaks to convert soft line breaks into hard breaks",
   "main": "./dist/index.js",
