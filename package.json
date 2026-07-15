@@ -1,0 +1,42 @@
+{
+  "name": "satteri-remark-breaks",
+  "version": "1.0.0",
+  "description": "Satteri-compatible copy of remark-breaks to convert soft line breaks into hard breaks",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "satteri",
+    "remark",
+    "breaks",
+    "markdown",
+    "mdast"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "satteri": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "satteri": "^0.9.5",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
