@@ -1,4 +1,4 @@
-# satteri-breaks
+# @minittupoyo/satteri-breaks
 
 A Sätteri-compatible copy of `remark-breaks`.
 
@@ -7,7 +7,7 @@ Converts soft line endings inside mdast text nodes to hard break nodes, matching
 ## Installation
 
 ```bash
-npm install satteri-breaks
+npm install @minittupoyo/satteri-breaks
 ```
 
 > [!NOTE]
@@ -17,7 +17,7 @@ npm install satteri-breaks
 
 ```javascript
 import { markdownToHtml } from 'satteri';
-import { satteriBreaks } from 'satteri-breaks';
+import { satteriBreaks } from '@minittupoyo/satteri-breaks';
 
 const { html } = markdownToHtml('hello\nworld', {
   mdastPlugins: [satteriBreaks],
@@ -30,4 +30,5 @@ console.log(html);
 ## License
 
 [MIT](./LICENSE)
+
 
